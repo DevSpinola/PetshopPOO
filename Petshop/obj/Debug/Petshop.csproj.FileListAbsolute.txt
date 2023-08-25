@@ -1,0 +1,16 @@
+C:\Users\pro21002207\Downloads\Petshop\Petshop\Petshop\bin\Debug\Petshop.exe.config
+C:\Users\pro21002207\Downloads\Petshop\Petshop\Petshop\bin\Debug\Petshop.exe
+C:\Users\pro21002207\Downloads\Petshop\Petshop\Petshop\bin\Debug\Petshop.pdb
+C:\Users\pro21002207\Downloads\Petshop\Petshop\Petshop\obj\Debug\Petshop.csproj.AssemblyReference.cache
+C:\Users\pro21002207\Downloads\Petshop\Petshop\Petshop\obj\Debug\Petshop.csproj.SuggestedBindingRedirects.cache
+C:\Users\pro21002207\Downloads\Petshop\Petshop\Petshop\obj\Debug\Petshop.csproj.CoreCompileInputs.cache
+C:\Users\pro21002207\Downloads\Petshop\Petshop\Petshop\obj\Debug\Petshop.exe
+C:\Users\pro21002207\Downloads\Petshop\Petshop\Petshop\obj\Debug\Petshop.pdb
+L:\Algoritmos\Petshop-main\Petshop\Petshop\bin\Debug\Petshop.exe.config
+L:\Algoritmos\Petshop-main\Petshop\Petshop\bin\Debug\Petshop.exe
+L:\Algoritmos\Petshop-main\Petshop\Petshop\bin\Debug\Petshop.pdb
+L:\Algoritmos\Petshop-main\Petshop\Petshop\obj\Debug\Petshop.csproj.AssemblyReference.cache
+L:\Algoritmos\Petshop-main\Petshop\Petshop\obj\Debug\Petshop.csproj.SuggestedBindingRedirects.cache
+L:\Algoritmos\Petshop-main\Petshop\Petshop\obj\Debug\Petshop.csproj.CoreCompileInputs.cache
+L:\Algoritmos\Petshop-main\Petshop\Petshop\obj\Debug\Petshop.exe
+L:\Algoritmos\Petshop-main\Petshop\Petshop\obj\Debug\Petshop.pdb
