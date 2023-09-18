@@ -11,8 +11,8 @@ namespace Petshop
     {
         static void Main(string[] args)
         {
-            //Criando objeto
-            AnimaisCadastro cadastro = new AnimaisCadastro();           
+            //Criando objeto da classe cadastro
+            Cadastro cadastro = new Cadastro();           
 
             void MenuPrograma()
             {
@@ -24,7 +24,7 @@ namespace Petshop
                 Console.WriteLine("4 - Excluir animal");
                 Console.WriteLine("5 - Consultar todos os animais cadastrados");
                 Console.WriteLine("6 - Sair do programa");
-                int opcao = int.Parse(Console.ReadLine());
+                int.TryParse(Console.ReadLine(), out int opcao);
                 switch (opcao)
                 {
                     case 1:

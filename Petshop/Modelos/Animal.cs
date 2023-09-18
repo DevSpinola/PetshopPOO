@@ -19,17 +19,5 @@ namespace Petshop
         public Nullable<DateTime> dataAlteracao;
 
 
-        public void excluir()
-        {
-            //Método para excluir os dados do animal
-            nome = null;
-            especie = null;
-            raca = null;
-            peso = 0;
-            datanasc = DateTime.MinValue;
-            dataInclusao = DateTime.MinValue;// Limpa as Datas 
-            dataAlteracao = null;
-        }
-     
     }
 }

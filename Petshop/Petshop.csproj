@@ -43,8 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Animal.cs" />
-    <Compile Include="AnimaisCadastro.cs" />
+    <Compile Include="Modelos\Animal.cs" />
+    <Compile Include="Modelos\Cadastro.cs" />
+    <Compile Include="Modelos\ConsultaMedica.cs" />
+    <Compile Include="Modelos\Veterinário.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
