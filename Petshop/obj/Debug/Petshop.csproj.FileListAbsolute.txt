@@ -10,7 +10,6 @@ L:\Algoritmos\Petshop-main\Petshop\Petshop\bin\Debug\Petshop.exe.config
 L:\Algoritmos\Petshop-main\Petshop\Petshop\bin\Debug\Petshop.exe
 L:\Algoritmos\Petshop-main\Petshop\Petshop\bin\Debug\Petshop.pdb
 L:\Algoritmos\Petshop-main\Petshop\Petshop\obj\Debug\Petshop.csproj.AssemblyReference.cache
-L:\Algoritmos\Petshop-main\Petshop\Petshop\obj\Debug\Petshop.csproj.SuggestedBindingRedirects.cache
 L:\Algoritmos\Petshop-main\Petshop\Petshop\obj\Debug\Petshop.csproj.CoreCompileInputs.cache
 L:\Algoritmos\Petshop-main\Petshop\Petshop\obj\Debug\Petshop.exe
 L:\Algoritmos\Petshop-main\Petshop\Petshop\obj\Debug\Petshop.pdb
