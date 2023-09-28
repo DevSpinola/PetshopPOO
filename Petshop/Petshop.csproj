@@ -44,11 +44,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Modelos\Animal.cs" />
-    <Compile Include="Modelos\Cadastro.cs" />
+    <Compile Include="Serviços\GerenciamentoPetShop.cs" />
     <Compile Include="Modelos\ConsultaMedica.cs" />
     <Compile Include="Modelos\Veterinário.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Serviços\GerenciamentoAnimal.cs" />
+    <Compile Include="Serviços\GerenciamentoConsulta.cs" />
+    <Compile Include="Serviços\GerenciamentoVeterinario.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

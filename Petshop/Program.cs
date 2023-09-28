@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Petshop.Serviços;
+using System;
+using System.Collections.Generic;
 using System.Threading;
 
 
@@ -9,7 +11,9 @@ namespace Petshop
         static void Main(string[] args)
         {
             //Criando objeto da classe cadastro
-            Cadastro cadastro = new Cadastro();
+            GerenciamentoAnimal gerenciamentoAnimal = new GerenciamentoAnimal();
+            GerenciamentoConsulta gerenciamentoConsulta = new GerenciamentoConsulta();
+            GerenciamentoVeterinario gerenciamentoVeterinario = new GerenciamentoVeterinario();            
 
             void MenuPrograma()
             {
@@ -23,15 +27,15 @@ namespace Petshop
                 int.TryParse(Console.ReadLine(), out int opcao);
                 switch (opcao)
                 {
-                    case 1:
+                    case 1:                        
                         MenuAnimal();
                         break;
 
-                    case 2:
+                    case 2:                        
                         MenuVeterinario();
                         break;
 
-                    case 3:
+                    case 3:                        
                         MenuConsulta();
                         break;
 
@@ -58,26 +62,26 @@ namespace Petshop
                 switch (opcao)
                 {
                     case 1:
-                        cadastro.CadastrarAnimal();
+                        gerenciamentoAnimal.CadastrarAnimal();
                         MenuPrograma();
                         break;
 
                     case 2:
-                        cadastro.ConsultarAnimal();
+                        gerenciamentoAnimal.ConsultarAnimal();
                         MenuPrograma();
                         break;
 
                     case 3:
-                        cadastro.AlterarAnimal();
+                        gerenciamentoAnimal.AlterarAnimal();
                         MenuPrograma();
                         break;
 
                     case 4:
-                        cadastro.ExcluirAnimal();
+                        gerenciamentoAnimal.ExcluirAnimal();
                         MenuPrograma();
                         break;
                     case 5:
-                        cadastro.ConsultarAnimaisCadastrados();
+                        gerenciamentoAnimal.ConsultarAnimaisCadastrados();
                         break;
                     case 6:
                         MenuPrograma();
@@ -92,7 +96,7 @@ namespace Petshop
 
             }
             void MenuVeterinario()
-            {
+            {                
                 Console.WriteLine("Escolha a opção desejada:");
                 Console.WriteLine("1 - Cadastrar Veterinario");
                 Console.WriteLine("2 - Consultar Veterinario");
@@ -104,26 +108,26 @@ namespace Petshop
                 switch (opcao)
                 {
                     case 1:
-                        cadastro.CadastrarVet();
+                        gerenciamentoVeterinario.CadastrarVet();
                         MenuPrograma();
                         break;
 
                     case 2:
-                        cadastro.ConsultarVet();
+                        gerenciamentoVeterinario.ConsultarVet();
                         MenuPrograma();
                         break;
 
                     case 3:
-                        cadastro.AlterarVet();
+                        gerenciamentoVeterinario.AlterarVet();
                         MenuPrograma();
                         break;
 
                     case 4:
-                        cadastro.ExcluirVet();
+                        gerenciamentoVeterinario.ExcluirVet();
                         MenuPrograma();
                         break;
                     case 5:
-                        cadastro.ConsultarVetCadastrados();
+                        gerenciamentoVeterinario.ConsultarVetCadastrados();
                         MenuPrograma();
                         break;
                     case 6:
@@ -148,15 +152,15 @@ namespace Petshop
                 switch (opcao)
                 {
                     case 1:
-                        cadastro.AgendarConsulta();
+                        gerenciamentoConsulta.AgendarConsulta();
                         MenuPrograma();
                         break;
                     case 2:
-                        cadastro.RegistrarConsulta();
+                        gerenciamentoConsulta.RegistrarConsulta();
                         MenuPrograma();
                         break;
                     case 3:
-                        cadastro.ExibirConsulta();
+                        gerenciamentoConsulta.ExibirConsulta();
                         MenuPrograma();
                         break;
                     case 4:
